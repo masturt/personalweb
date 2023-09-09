@@ -24,9 +24,9 @@
 
 @layer components {
   .card {
-    @apply bg-white hover:scale-105 transition duration-300 ease-in-out p-8 rounded-3xl shadow-sm;
+    @apply bg-white hover:scale-105 hover:bg-slate-50 transition duration-300 ease-in-out p-8 rounded-3xl shadow-sm;
   }
   .liHead {
-    @apply hover:cursor-pointer hover:scale-105 transition duration-300 ease-out;
+    @apply hover:bg-slate-50 hover:cursor-pointer hover:scale-105 transition duration-300 ease-out;
   }
 }
